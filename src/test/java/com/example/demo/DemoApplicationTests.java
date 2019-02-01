@@ -21,7 +21,7 @@ public class DemoApplicationTests {
 	@Test
 	public void contextLoads() {
 		System.out.println("Inside Junit contextLoads");
-		System.out.println("Test from AmitK");
+		System.out.println("Test from localhost");
 		Assert.assertEquals("Greetings from DemoController!",demoController.index());
 	}
 
